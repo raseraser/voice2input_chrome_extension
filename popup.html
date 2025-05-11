@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>繁中語音輸入助手</title>
+  <style>
+    body {
+      width: 250px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      font-size: 16px;
+      margin-top: 0;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #3367d6;
+    }
+    .shortcut {
+      margin-top: 15px;
+      color: #666;
+      font-size: 12px;
+      text-align: center;
+    }
+    .status {
+      margin-top: 10px;
+      padding: 8px;
+      background-color: #f8f8f8;
+      border-radius: 4px;
+      font-size: 12px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <h1>繁中語音輸入助手</h1>
+  <div class="status">
+    點擊按鈕或按下快捷鍵開始語音輸入。<br>
+    請確保已授予麥克風使用權限。
+  </div>
+  <button id="toggleBtn">開始語音輸入</button>
+  <div class="shortcut">快捷鍵: Alt+Q</div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
