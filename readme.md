@@ -117,10 +117,12 @@ voice2input/
 
 ## 製作者
 
-RaserCheng - [GitHub鏈接](https://github.com/rasercheng)
+RaserCheng - [GitHub鏈接](https://github.com/raseraser)
 
 ## 致謝
 
 - Web Speech API 團隊 (Claude AI)
+
 - 所有提供測試和反饋的使用者
-- 
+
+  
